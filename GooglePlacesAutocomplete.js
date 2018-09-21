@@ -744,7 +744,7 @@ GooglePlacesAutocomplete.propTypes = {
   styles: PropTypes.object,
   textInputProps: PropTypes.object,
   listViewProps: PropTypes.object,
-  ListComponent: PropTypes.oneOfType([React.PropTypes.string, React.PropTypes.func]),
+  ListComponent: PropTypes.oneOfType([PropTypes.string, PropTypes.func]),
   enablePoweredByContainer: PropTypes.bool,
   predefinedPlaces: PropTypes.array,
   currentLocation: PropTypes.bool,
